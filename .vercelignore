@@ -1,0 +1,6 @@
+.git/
+node_modules/
+.next/
+*.tsbuildinfo
+background.mp4
+Fakhrul_Alam_Developer_CV.pdf

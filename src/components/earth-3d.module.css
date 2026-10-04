@@ -1,0 +1,7 @@
+.background { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; background: #08090b; }
+.canvas, .poster { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.poster { object-fit: cover; }
+.canvas { opacity: 0; }
+.canvas[data-ready] { opacity: 1; }
+.background:has(.canvas[data-ready]) .poster { visibility: hidden; }
+@media (prefers-reduced-motion: reduce) { .canvas { display: none; } }
