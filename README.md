@@ -2,6 +2,10 @@
 
 A personal portfolio for **Md. Fakhrul Alam Shuvo**, a WordPress and full-stack web developer based in Dhaka, Bangladesh. The main experience, **A signal from Dhaka**, combines a real-time 3D Earth with a scroll-driven camera journey, orbital details, original project artwork, and source-backed work and experience.
 
+**Live website:** [freelancer-portfolio-2-dun.vercel.app](https://freelancer-portfolio-2-dun.vercel.app)
+
+**Original homepage:** [View Home 2](https://freelancer-portfolio-2-dun.vercel.app/home-2)
+
 ## Pages
 
 - `/` — the main orbital portfolio.
@@ -39,3 +43,7 @@ npm start
 ```
 
 The repository includes the source Earth video, generated WebP assets, and supplied resume. Build output, dependencies, environment files, and Vercel account configuration are excluded from Git.
+
+## Deployment
+
+Hosted on Vercel and connected to this GitHub repository. Updates pushed to `main` trigger production deployments. When hosting under another domain, set `NEXT_PUBLIC_SITE_URL` to that domain; on Vercel, metadata uses the project's production URL automatically.
